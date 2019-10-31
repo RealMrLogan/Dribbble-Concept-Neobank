@@ -1,8 +1,7 @@
 import React, {
   Component
 } from 'react';
-import './App.css';
-import Nav from "./Nav/Nav";
+import Header from "./Header/Header";
 
 class App extends Component {
   state = {
@@ -30,14 +29,7 @@ class App extends Component {
 
   render() {
     return (<div className="App" >
-      <header className="App-header" >
-        <div className="profile">
-          <p></p>
-        </div>
-        <div className="not-profile">
-          <Nav />
-        </div>
-      </header>
+      <Header />
     </div>
     );
   }
