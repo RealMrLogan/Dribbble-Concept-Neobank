@@ -1,0 +1,45 @@
+nav {
+   width: 100%;
+   margin-left: 35px;
+}
+
+.link {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   --color: #ffffff55;
+   --hover-color: #ffffffdd;
+}
+
+.link .icon {
+   width: 25px;
+   margin-right: 20px;
+   fill: var(--color);
+}
+
+.link:hover {
+   cursor: pointer;
+}
+
+.link:hover .icon path,
+.link:hover .icon polygon,
+.link:hover .icon circle {
+   fill: var(--hover-color);
+}
+
+.link label {
+   font-size: 1em;
+   color: var(--color);
+}
+
+.link:hover label {
+   color: var(--hover-color);
+   cursor: pointer;
+}
+
+hr {
+   width: 25px;
+   height: 1px;
+   background-color: var(--color);
+   border: none;
+}
