@@ -28,9 +28,10 @@ class App extends Component {
   };
 
   render() {
-    return (<div className="App" >
-      <Header />
-    </div>
+    return (
+      <section style={{ position: "absolute", right: 0, width: "85%" }}>
+        <p>{this.state.data}</p>
+      </section>
     );
   }
 }
