@@ -3,15 +3,18 @@ nav {
    margin-left: 35px;
 }
 
+:root {
+   --color: #716aa8;
+   --hover-color: #dddddd;
+}
+
 .link {
    display: flex;
    align-items: center;
    margin-bottom: 20px;
-   --color: #ffffff55;
-   --hover-color: #ffffffdd;
 }
 
-.link .icon {
+.icon {
    width: 25px;
    margin-right: 20px;
    fill: var(--color);
@@ -42,4 +45,5 @@ hr {
    height: 1px;
    background-color: var(--color);
    border: none;
+   margin: 10px 0 15px 0;
 }
