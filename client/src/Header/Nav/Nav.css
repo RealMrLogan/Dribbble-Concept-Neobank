@@ -1,6 +1,6 @@
 nav {
    width: 100%;
-   margin-left: 35px;
+   margin-left: 45px;
 }
 
 :root {
@@ -16,23 +16,27 @@ nav {
 
 .icon {
    width: 25px;
-   margin-right: 20px;
    fill: var(--color);
 }
 
-.link:hover {
+.link:hover, 
+.icon:hover {
    cursor: pointer;
 }
 
 .link:hover .icon path,
 .link:hover .icon polygon,
-.link:hover .icon circle {
+.link:hover .icon circle,
+.icon:hover path,
+.icon:hover polygon,
+.icon:hover circle  {
    fill: var(--hover-color);
 }
 
 .link label {
    font-size: 1em;
    color: var(--color);
+   margin-left: 20px;
 }
 
 .link:hover label {
